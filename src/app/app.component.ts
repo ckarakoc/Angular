@@ -10,14 +10,16 @@ import { HomeComponent } from './home/home.component';
   imports: [RouterOutlet, TodoListItem, HomeComponent, RouterLink],
   // templateUrl: './app.component.html',
   template: `
-    <a [routerLink]="['/']">
-      <header>
-        <section>
+    <main>
+      <a [routerLink]="['/']">
+        <header class="brand-name">
           <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
-        </section>
-      </header>
-    </a>
-    <router-outlet/>
+        </header>
+      </a>
+      <section class="content">
+        <router-outlet></router-outlet>
+      </section>
+    </main>
     <!--    <todo-list-item/>-->
 
     <!--    <app-home/>-->`,
