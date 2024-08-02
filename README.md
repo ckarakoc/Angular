@@ -2,6 +2,6 @@
 
 Tutorial Project made with Angular - Housing
 
-![HomePage](assets/readme_home_page.png)
+![HomePage](src/assets/readme_home_page.png)
 
-![Details](assets/readme_details_page.png)
+![Details](src/assets/readme_details_page.png)
